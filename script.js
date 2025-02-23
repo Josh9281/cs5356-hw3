@@ -10,3 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => console.error("Error fetching dog image:", error));
 });
+
+document.addEventListener("mousemove", (event) => {
+    const x = event.clientX / window.innerWidth;
+    const y = event.clientY / window.innerHeight;
+    document.body.style.backgroundColor = `rgb(${x * 255}, ${y * 255}, 200)`;
+});
