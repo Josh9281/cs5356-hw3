@@ -18,3 +18,10 @@ main {
 img {
     border-radius: 50%;
 }
+
+details {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
