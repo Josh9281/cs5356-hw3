@@ -24,4 +24,5 @@ details {
     padding: 10px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
+    /* I experimented with the backdrop-filter property to create a frosted glass effect in my design. It adds a subtle blur to the background of the details element, making it look modern and visually appealing while maintaining readability. */
 }
